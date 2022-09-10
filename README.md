@@ -17,6 +17,7 @@ Looks of the home page
 
 <img alt="image1" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image1.png">
 
+<h3 style={color=orange;}> Cart Section </h3>
 
 
 
