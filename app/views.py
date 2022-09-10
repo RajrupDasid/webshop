@@ -58,7 +58,7 @@ def show_cart(request):
 
 def plus_cart(request):
     try:
-        if request.method=='GET':        
+        if request.method=='GET':
             prod_id=request.GET['prod_id']
             c=Cart.objects.get(Q(product=prod_id) & Q(user=request.user))
             c.quantity+=1
@@ -84,7 +84,7 @@ def plus_cart(request):
 
 def minus_cart(request):
     try:
-        if request.method=='GET':        
+        if request.method=='GET':
             prod_id=request.GET['prod_id']
             c=Cart.objects.get(Q(product=prod_id) & Q(user=request.user))
             c.quantity-=1
@@ -109,10 +109,10 @@ def minus_cart(request):
 
 def remove_cart(request):
     try:
-        if request.method=='GET':        
+        if request.method=='GET':
             prod_id=request.GET['prod_id']
             c=Cart.objects.get(Q(product=prod_id) & Q(user=request.user))
-            
+
             c.delete()
             amount=0.0
             shipping_amount = 70.0
