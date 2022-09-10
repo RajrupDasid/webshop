@@ -5,7 +5,7 @@
 
 <h4>All of it's features are as follows </h4>
 
-<h3 style="color:blue;">a:- Home page section displaying all of the products</h3>
+<h3 style="color:blue;">Home Page setion</h3>
 
 Looks of the home page 
 
@@ -32,4 +32,11 @@ Looks of the home page
 
 
 
+<h3 style="color:orange;"> Admin section </h3>
+
+
+<img alt="admin1" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/admin1.png">
+
+
+<img alt="admin2" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/admin2.png">
 
