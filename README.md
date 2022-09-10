@@ -10,13 +10,13 @@ b:- clickable sections .
 c- nice looks
 Looks of the home page 
 
-https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image1.png
+<img alt="image1" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image1.png">
 
-https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image2.png
+<img alt="image2" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image2.png">
 
-https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image3.png
+<img alt="image3" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image3.png">
 
-https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image4.png
+<img alt="image1" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/image1.png">
 
 
 
