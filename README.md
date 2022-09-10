@@ -38,5 +38,5 @@ Looks of the home page
 <img alt="admin1" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/admin1.png">
 
 
-<img alt="admin2" src="https://github.com/RajrupDasid/webshop/blob/master/Demo_images/admin2.png">
+
 
