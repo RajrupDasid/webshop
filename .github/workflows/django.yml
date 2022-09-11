@@ -42,6 +42,6 @@ jobs:
         file: ./Dockerfile
         builder: ${{ steps.buildx.outputs.name }}
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/djangowebshopls:latest
-        cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/delta_rest_test:buildcache
-        cache_to: type=registry,ref= ${{ secrets.DOCKER_HUB_USERNAME }}/delta_rest_test:buildcache,mode=max
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/djangowebshop:latest
+        cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/djangowebshop:buildcache
+        cache_to: type=registry,ref= ${{ secrets.DOCKER_HUB_USERNAME }}/djangowebshop:buildcache,mode=max
